@@ -1,0 +1,14 @@
+<div id="pip-container">
+
+       <video #pipRef
+              [vgMedia]="pipRef"
+              [src]="source"
+              id="pipVideo"
+              prelooad="auto"
+              playsinline
+              crossorigin
+              (click)="onClickCam()">
+       </video>
+       <vg-mute vgFor="pipVideo"></vg-mute>
+
+</div>
